@@ -2044,6 +2044,137 @@
 				)
 			)
 		)
+		(symbol "Graphic:Tetra_logo"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 7.747 8.763 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "teTra"
+				(at 0.254 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Symbol:teTra-LOGO"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Tetra_logo_1_1"
+				(polyline
+					(pts
+						(xy 0 7.112) (xy -2.54 3.048) (xy 2.54 3.048) (xy 0 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 88 80 0 1)
+					)
+					(fill
+						(type color)
+						(color 88 80 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -2.794 2.286) (xy -4.318 0) (xy -0.508 -5.842) (xy -0.508 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 38 9 255 1)
+					)
+					(fill
+						(type color)
+						(color 38 9 255 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.286) (xy 2.794 2.286) (xy 4.318 0) (xy 0.508 -5.842) (xy 0.508 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 255 228 16 1)
+					)
+					(fill
+						(type color)
+						(color 255 228 16 1)
+					)
+				)
+				(text "a"
+					(at 13.462 -1.524 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 8.89 8.89)
+						)
+					)
+				)
+				(text "e"
+					(at -8.89 -1.524 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 8.89 8.89)
+						)
+					)
+				)
+				(text "r"
+					(at 7.112 -1.524 0)
+					(effects
+						(font
+							(size 8.89 8.89)
+						)
+					)
+				)
+				(text "t"
+					(at -16.002 -1.524 0)
+					(effects
+						(font
+							(size 8.89 8.89)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Interface:SN65LVDS2D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4961,6 +5092,70 @@
 			(project "Pegasus_Sensor_Interface"
 				(path "/33d08739-9df2-4e53-9b99-51d634eccd8e"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:Tetra_logo")
+		(at 228.6 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4422bbd-dab8-4b88-89d9-9304d86567d5")
+		(property "Reference" "LOGO1"
+			(at 236.347 165.227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "teTra"
+			(at 228.854 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Symbol:teTra-LOGO"
+			(at 228.6 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/33d08739-9df2-4e53-9b99-51d634eccd8e"
+					(reference "LOGO1")
 					(unit 1)
 				)
 			)
